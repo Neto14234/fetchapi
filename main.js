@@ -16,7 +16,7 @@ function getData() {
         //Geting Data values
         let output = "<h2><center>Dados do Usuário</center></h2>";
 
-        //get data loop through
+        //Get Data Loop
         author.forEach(function(lists){
             output += `
             <div class= "container">
