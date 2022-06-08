@@ -5,7 +5,7 @@ function getData() {
     //console.log('test');
 
     //GET API RandomUser
-    fetch('https://randomuser.me/api/')
+    fetch('https://randomuser.me/api/?results=100')
     .then(res => res.json())
     .then(data => {
         console.log(data);
@@ -39,7 +39,6 @@ function getData() {
 
         //Show On Our Screen All Data
         document.getElementById('output').innerHTML = output;
-
-
+    
     });
 };
